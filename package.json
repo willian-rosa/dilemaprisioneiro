@@ -4,6 +4,7 @@
   "description": "## Run docker run -itd --name dilemaprisioneiro -p 3000:3000 -v $PWD:/var/www node:latest",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
