@@ -2,7 +2,7 @@
 
 process.title = 'dilemaprisioneiro';
 
-var webSocketsServerPort = process.env.PORT || 3000;
+var webSocketsServerPort = 3000;
 var webSocketServer = require('websocket').server;
 var http = require('http');
 var fs = require('fs');
