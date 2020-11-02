@@ -29,7 +29,8 @@ $(function () {
         return;
     }
 
-    var connection = new WebSocket('ws://dilemadoprisioneiro.herokuapp.com');
+    var HOST = location.origin.replace(/^http/, 'ws')
+    var connection = new WebSocket(HOST);
     connection.onopen = function () {
         $('#input').removeAttr('disabled');
         status.text('Seu Nome:');
