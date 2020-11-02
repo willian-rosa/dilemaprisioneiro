@@ -78,7 +78,7 @@ $(function () {
             let colorAlert = '';
             let messageAlert = '';
 
-            messageAlert = '<b>' + users[0].name + 'foi :</b>' + users[0].sentence + '<br>' +
+            messageAlert = '<b>' + users[0].name + '</b> foi:' + users[0].sentence + '<br>' +
                 '<b>' + users[1].name + '</b> foi: '+ users[1].sentence;
 
             $('#alert').show().html(messageAlert);
