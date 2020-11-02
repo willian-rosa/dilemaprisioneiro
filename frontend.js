@@ -29,7 +29,7 @@ $(function () {
         return;
     }
 
-    var connection = new WebSocket('ws://127.0.0.1:80');
+    var connection = new WebSocket('ws://127.0.0.1:21157');
     connection.onopen = function () {
         $('#input').removeAttr('disabled');
         status.text('Seu Nome:');
